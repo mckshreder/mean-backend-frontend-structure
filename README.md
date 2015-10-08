@@ -1,0 +1,1 @@
+# mean-backend-frontend-structure
