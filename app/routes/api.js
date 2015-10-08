@@ -5,6 +5,8 @@ var config = require('../../config');
 var superSecret = config.secret;
 
 module.exports = function(app, express) {
+
+var apiRouter = express.Router();
 // route for authenticating users
 apiRouter.post('/authenticate', function(req, res) {
 
